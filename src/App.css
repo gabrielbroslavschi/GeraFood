@@ -1,38 +1,254 @@
 .App {
+  background-color: rgb(167, 170, 173);
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.header{
+  background-color: #F3F2F9;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-items: center;
+  align-items: center;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.Logo{
+  height: 50%;
+  border: 0.5px solid #B7B7B7;
+  border-radius: 15px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.SobreGabrielDevLight{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: auto;
+  min-height: 10vh;
+  font-size: 2vh;
+  z-index: 999;
+}
+
+.LighMode{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-content: center;
+  align-items: center;
+}
+
+.lighModeButton{
+  appearance: none;
+  width: 70px;
+  height: 35px;
+  background: linear-gradient(91deg, #24FF00, #00FFD1 ) ;
+  border-radius: 50px;
+  position: absolute;
+  transition: 0.3s ease-in-out;
+}
+
+.lighModeButton::before{
+  content: "";
+  position: absolute;
+  width: 25px;
+  height: 25px;
+  background-color: #fff;
+  border-radius: 50%;
+  left: 5px;
+  top: 5px;
+  transition: 0.3s ease-in-out;
+}
+
+.lighModeButton::after{
+  position: absolute;
+  color: #34384b;
+  font-size: 8px;
+  left: 9.5px;
+  top: 12.5px;
+  transition: 0.3s ease-in-out;
+}
+
+.lighModeButton:checked{
+  background: #FF5C00;
+  transition: 0.3s ease-in-out;
+}
+
+.lighModeButton:checked:before{
+  background: #fff;
+  left: 40px;  
+  transition: 0.3s ease-in-out;
+}
+
+.lighModeButton:checked::after{
+  color: #34384b;
+  left: 47.5px;
+  transition: 0.3s ease-in-out;
+}
+
+
+
+
+.filterButtons{
+  appearance: none;
+  width: 70px;
+  height: 35px;
+  border: 1px solid rgba(52, 56, 75, 0.199);
+  background: #F3F2F9 ;
+  border-radius: 50px;
+  position: absolute;
+  transition: 0.3s ease-in-out;
+}
+
+.filterButtons::before{
+  border: none;
+  content: "";
+  position: absolute;
+  width: 25px;
+  height: 25px;
+  background-color: #8a8a8a;
+  border-radius: 50%;
+  left: 5px;
+  top: 5px;
+  transition: 0.3s ease-in-out;
+}
+
+.filterButtons::after{
+  border: none;
+  position: absolute;
+  color: #fff;
+  font-size: 8px;
+  left: 9.5px;
+  top: 12.5px;
+  transition: 0.3s ease-in-out;
+}
+
+.filterButtons:checked{
+  border: none;
+  background: #FF5C00;
+  transition: 0.3s ease-in-out;
+}
+
+.filterButtons:checked:before{
+  border: none;
+  background: #fff;
+  left: 40px;  
+  transition: 0.3s ease-in-out;
+}
+
+.filterButtons:checked::after{
+  border: none;
+  color: #34384b;
+  left: 47.5px;
+  transition: 0.3s ease-in-out;
+}
+
+
+
+
+
+.body{
+  background-color: #fff;
+  height: auto;
+  min-height: 85vh;
+  display: grid;
+  grid-template-columns: 25% 75%;
+}
+
+.buttonsRandom{
   display: flex;
   flex-direction: column;
+  width: 100%;
+  height: 100%;
+  border-bottom: 0.5px solid #B7B7B7;
+  border-top: 0.5px solid #B7B7B7;
   align-items: center;
+  justify-content: start;
+}
+
+.buttonClickRanom{
+  margin-top: 5vh;
+  width: 20vw;
+  height: 75px;
+  border-radius: 5px;
+  font-size: 20pt;
+  text-align: center;
+}
+
+.buttonsRandomFilter{
+  width: 20vw;
+  height: 45vh;
+  border: 0.5px solid #B7B7B7;
+  display: flex;
+  flex-direction: column;
+  font-size: 2vw;
+  align-items: center;
+  margin-top: 5vh;
+}
+
+.titleFilter{
+  width: 100%;
+  height: 25%;
+  text-align: center;
+}
+
+.Filter{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  font-size: 1vw;
+  width: 100%;
+  margin-top: 5%;
+}
+
+.recipeRandom{
+  display: flex;
+  flex-direction: column;
+  width: 99.9%;
+  height: 100%;
+  border-bottom: 0.5px solid #B7B7B7;
+  border-left: 0.5px solid #B7B7B7;
+  border-top: 0.5px solid #B7B7B7;
+}
+
+.recipeRandomTitle{
+  height: 10vh;
+}
+
+.recipeTitle{
+  width: auto;
+  font-size: 2vw;
+}
+
+.recipeIngredients{
+  text-align: start;
+  width: 80%;
+}
+
+.recipeRandomInfo{
+  display: grid;
+  grid-template-columns: 25% 75%;
+}
+
+.recipeRandomInfoImage{
+  display: flex;
+  flex-direction: column;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
+  width: auto;
 }
 
-.App-link {
-  color: #61dafb;
+.recipeRandomInfoImagePresents{
+  width: 100%;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.recipeImage{
+  width: 80%;
+}
+
+.recipeRandomInfoForm{
+  width: auto;
+  min-height: 70vh;
+  border-left:  0.5px solid #B7B7B7;
+}
+
+.footer{
+  width: 100%;
+  height: 30vh;
+  margin-top: 1px;
 }

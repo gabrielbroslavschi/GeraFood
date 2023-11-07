@@ -1,0 +1,88 @@
+{
+    "data":[
+        {
+          "nome": "Bolo de cenoura",
+          "ingredientes": [
+             "3 cenouras médias",
+             "4 ovos",
+             "1 xícara de chá de óleo de milho",
+             "1 e 1/2 xícara de chá de açúcar",
+             "2 xícaras de chá de farinha de trigo",
+             "1 colher de sopa de fermento químico em pó (fermento para bolo)",
+             "1 pitada de sal",
+             "Manteiga e farinha de trigo para untar"
+          ],
+          "Preparo": [
+            "Em um recipiente, misture a farinha, o sal e fermento;",
+            "No liquidificador, coloque as cenouras, o óleo, os ovos e o açúcar. Bata por cerca de 5 minutos e despeje a mistura em um recipiente grande;",
+            "Gradualmente, vá adicionando a mistura de ingredientes secos e, com o auxílio de um fouet, vá misturando até tudo incorporar;",
+            "Assim que ficar homogêneo, transfira para uma forma, untada e enfarinha, e leve ao forno preaquecido a 180ºC por cerca de 45 a 50 minutos;",
+            "Assim que o bolo mornar e desenforme;"
+          ],
+          "vegetariano": true,
+          "vegano": false,
+          "gluten": true,
+          "imagem": "https://www.sabornamesa.com.br/media/k2/items/cache/919acbd93a09198eef55d141863c0dbb_XL.jpg"
+        },
+        {
+          "nome": "Esfiha Vegana e Sem Glúten",
+          "ingredientes": [
+             "760g de batatas inglesas",
+             "60ml de água morna",
+             "45 ml de azeite de oliva",
+             "60g de farinha de grão de bico",
+             "1 colher (sopa) de açúcar demerara",
+             "1 colher (chá) de sal",
+             "10g de fermento biológico seco instantâneo",
+             "20g de polvilho azedor",
+             "20g de psyllium",
+             "150g de farinha de arroz"
+          ],
+          "Preparo": [
+             "Em um recipiente, misture a farinha, o sal e fermento;",
+             "No liquidificador, coloque as cenouras, o óleo, os ovos e o açúcar. Bata por cerca de 5 minutos e despeje a mistura em um recipiente grande;",
+             "Gradualmente, vá adicionando a mistura de ingredientes secos e, com o auxílio de um fouet, vá misturando até tudo incorporar;",
+             "Assim que ficar homogêneo, transfira para uma forma, untada e enfarinha, e leve ao forno preaquecido a 180ºC por cerca de 45 a 50 minutos;",
+             "Assim que o bolo mornar e desenforme;"
+          ],
+          "vegetariano": false,
+          "vegano": true,
+          "gluten": false,
+          "imagem": "https://receitanatureba.com/wp-content/uploads/2021/01/Esfiha-Vegana.jpg.webp"
+        },
+        {
+          "nome": "Carne de Panela",
+          "ingredientes": [
+             "1 kg de acém",
+             "400 g de batata bolinha",
+             "2 cenouras",
+             "1/2 cebola",
+             "2 dentes de alho",
+             "1 colher (sopa) de extrato de tomate",
+             "2 colheres (sopa) de farinha de trigo",
+             "3 colheres (sopa) de vinagre de vinho tinto",
+             "1 xícara (chá) de água fervente",
+             "azeite a gosto",
+             "2 folhas de louro",
+             "1 colher (chá) de cominho em pó",
+             "1/2 colher (chá) de colorau",
+             "1/4 de colher (chá) de canela em pó",
+             "sal e pimenta-do-reino moída na hora a gosto"
+          ],
+          "Preparo": [
+            "Corte o acém em cubos de cerca de 3 cm e tempere com o cominho, o colorau, a canela, 1 colher (chá) de sal e pimenta-do-reino a gosto. Numa chaleira, leve um pouco mais de 1 xícara (chá) de água ao fogo médio para ferver;",
+            "Descasque e pique fino a cebola e o alho.",
+            "Leve a panela de pressão (sem a tampa) ao fogo médio. Quando aquecer, regue com 1 colher (sopa) de azeite, adicione a cebola, tempere com uma pitada de sal e refogue por 2 minutos, até murchar. Junte o alho, o extrato de tomate e as folhas de louro e mexa por 1 minuto. Acrescente 1 colher (sopa) de azeite e a farinha e mexa bem por mais 2 minutos.",
+            "Regue com o vinagre e 1 xícara (chá) de água fervente. Tempere com mais 1 colher (chá) de sal, junte a carne e misture delicadamente. Tampe a panela e aumente o fogo. Quando começar a apitar, abaixe o fogo e deixe cozinhar por 25 minutos. Enquanto isso, prepare os demais ingredientes.",
+            "Com uma escovinha para legumes, lave bem a casca das batatas. Corte cada uma ao meio, no sentido do comprimento. Descasque e corte as cenouras ao meio, no sentido do comprimento, e fatie as metades em meias-luas de 1 cm, na diagonal.",
+            "Após os 25 minutos, desligue o fogo e, com cuidado, leve a panela para esfriar sob água corrente até que pare de sair vapor pela válvula. Ata água não deve entrar em contato com nenhuma das válvulas, apenas com a superfície lisa da tampa.",
+            "Abra a panela, adicione as batatas e as cenouras cortadas e misture delicadamente. Tampe e volte a panela ao fogo alto. Assim que ela pegar pressão novamente, abaixe o fogo e deixe cozinhar por 5 minutos.",
+            "Desligue o fogo e espere toda a pressão sair naturalmente da panela antes de abrir a tampa. Sirva a seguir."
+            ],
+          "vegetariano": false,
+          "vegano": true,
+          "gluten": false,
+          "imagem": "https://i.panelinha.com.br/i1/64-bk-2979-carne-de-panela-com-cenoura-e-batata-na-pressao.webp"
+        }
+      ]
+}
