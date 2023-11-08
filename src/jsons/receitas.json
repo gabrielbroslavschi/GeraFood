@@ -25,6 +25,34 @@
           "imagem": "https://www.sabornamesa.com.br/media/k2/items/cache/919acbd93a09198eef55d141863c0dbb_XL.jpg"
         },
         {
+          "nome": "Bolo de Banana",
+          "ingredientes": [
+             "3 ovos",
+             "3 colheres de sopa de manteiga (ou margarina)",
+             "2 xícaras de chá de açúcar",
+             "4 bananas maduras amassadas com o garfo",
+             "2 e 1/2 xícaras de chá de farinha de trigo",
+             "1 xícara de chá de leite",
+             "1 pitada de sal",
+             "1 colher de chá de fermento químico em pó (fermento para bolo)",
+             "2 colheres de sopa de açúcar com canela em pó (para polvilhar)",
+             "2 colheres de sopa de canela em pó (para polvilhar)"
+          ],
+          "Preparo": [
+            "Reúna todos os ingredientes do bolo de banana fofinho;",
+            "Em um recipiente, coloque os ovos, a manteiga, o açúcar e bata com um fouet;",
+            "Em seguida, adicione as bananas, a farinha e misture bem;",
+            "Depois, acrescente o leite e misture;",
+            "Junte o sal, o fermento e misture delicadamente para incorporar;",
+            "Despeje a massa em uma forma com furo no meio, untada e enfarinhada. Finalize polvilhando o açúcar com a canela em pó por cima do bolo;",
+            "Leve ao forno preaquecido a 180°C por cerca de 40 minutos. Agora é só servir. Bom apetite!"
+          ],
+          "vegetariano": true,
+          "vegano": false,
+          "gluten": true,
+          "imagem": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgNhRgnyxbn5QHcQnNqQ0mKtHPXtVcbckNRLju3xaDieuvEYul1DF_2ZteTFYfzOkilbWiHMAs__j_8hEIQftRKELh_xzIfkvNEmt0XI00PTxwNRGsPxUiaHn9s9oUU2BdQRogpTBEEwaxViauI6Y_De8felS5Zv0yRljcW-sBBwGUbuAw-HDJtXtNZ3w/w1200-h630-p-k-no-nu/receita-bolo-banana-aveia-fit.jpg"
+        },
+        {
           "nome": "Esfiha Vegana e Sem Glúten",
           "ingredientes": [
              "760g de batatas inglesas",
@@ -49,6 +77,34 @@
           "vegano": true,
           "gluten": false,
           "imagem": "https://receitanatureba.com/wp-content/uploads/2021/01/Esfiha-Vegana.jpg.webp"
+        },
+        {
+          "nome": "Salada de quinoa com mel",
+          "ingredientes": [
+             "200g quinoa",
+             "1/2 pepino médio",
+             "5 tomates picados",
+             "2 cenouras raladas",
+             "200 g tâmaras picadas",
+             "1 xícara alface picada",
+             "1 lata milho escorrido",
+             "1 lata feijão escorrido",
+             "4 colheres de sopa tahine",
+             "2 colheres de sopa mel",
+             "1/2 suco de limão",
+             "sal a gosto",
+             "pimenta-do-reino a gosto"
+          ],
+          "Preparo": [
+             "Cozinhe a quinoa de acordo com as instruções da embalagem e reserve em uma tigela;",
+             "Acrescente à quinoa já fria o pepino, os tomates, as cenouras, as tâmaras, a alface, o milho, o feijão e mexa bem;",
+             "À parte, misture o tahine, o mel, o suco de limão, o sal, a pimenta-do-reino e um pouco de água para diluir;",
+             "Regue a salada com o molho e sirva."
+          ],
+          "vegetariano": false,
+          "vegano": true,
+          "gluten": false,
+          "imagem": "https://blog.gsuplementos.com.br/wp-content/uploads/2020/11/iStock-1177033544.jpg"
         },
         {
           "nome": "Carne de Panela",
@@ -80,7 +136,7 @@
             "Desligue o fogo e espere toda a pressão sair naturalmente da panela antes de abrir a tampa. Sirva a seguir."
             ],
           "vegetariano": false,
-          "vegano": true,
+          "vegano": false,
           "gluten": false,
           "imagem": "https://i.panelinha.com.br/i1/64-bk-2979-carne-de-panela-com-cenoura-e-batata-na-pressao.webp"
         }

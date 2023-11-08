@@ -23,7 +23,7 @@
   align-items: center;
   height: auto;
   min-height: 10vh;
-  font-size: 2vh;
+  font-size: 12pt;
   z-index: 999;
 }
 
@@ -173,7 +173,7 @@
 
 .buttonsRandomFilter{
   width: 20vw;
-  height: 45vh;
+  height: 135px;
   border: 0.5px solid #B7B7B7;
   display: flex;
   flex-direction: column;
@@ -220,6 +220,10 @@
   width: 80%;
 }
 
+.recipeIngredients li{
+  margin-top: 15px;
+}
+
 .recipeRandomInfo{
   display: grid;
   grid-template-columns: 25% 75%;
@@ -228,7 +232,6 @@
 .recipeRandomInfoImage{
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
   width: auto;
 }
@@ -245,10 +248,1760 @@
   width: auto;
   min-height: 70vh;
   border-left:  0.5px solid #B7B7B7;
+  font-size: 1vw;
+  padding-left: 5%;
 }
 
 .footer{
+  display: flex;
   width: 100%;
-  height: 30vh;
+  min-height: 310px;
   margin-top: 1px;
+  justify-content: center;
+  text-align: start;
+}
+.footerInfo{
+  height: 150px;
+  display: flex;
+  text-align: justify;
+  align-items: center;
+  width: 80%;
+  margin-left: 10%;
+  margin-top: 80px;
+  border-bottom: 0.5px solid #b7b7b7ad;
+  border-top: 0.5px solid #b7b7b7ad;
+}
+
+
+@media (width: 360px) and (height: 640px){
+  .Logo{
+    width: 80%;
+    height: 80%;
+  }
+
+  .SobreGabrielDevLight{
+    margin-left: -20vw;
+  }
+
+  .body{
+    grid-template-columns: 1fr;
+  }
+
+  .buttonsRandom{
+    margin-bottom: 5vh;
+  }
+
+  .buttonClickRanom,.buttonsRandomFilter{
+    width: 65vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .Filter{
+    font-size: 5vw;
+  }
+
+  .filterButtons{
+    margin-left: -10vw;
+  }
+
+  .recipeRandom{
+    margin-top: 5vh;
+  }
+  
+  .recipeTitle{
+    font-size: 5vw;
+  }
+
+  .recipeRandom{
+    border-left: none;
+  }
+
+  .recipeRandomInfo{
+    grid-template-columns: 1fr;
+  }
+
+  .recipeRandomInfoForm{
+    display: flex;
+    border-left: none;
+    border-top: 0.5px solid #b7b7b7ad;
+    font-size: 4vw;
+    padding: 0px;
+    justify-content: center;
+  }
+
+  .recipeIngredients{
+    width: 80%;
+  }
+
+  .footerInfo{
+    font-size: 3vw;
+    text-align: start;
+    margin-left: 0;
+    width: 90%;
+  }
+}
+
+@media (width: 353px) and (height: 745px){
+  .Logo{
+    width: 80%;
+    height: 80%;
+  }
+
+  .SobreGabrielDevLight{
+    margin-left: -20vw;
+  }
+
+  .body{
+    grid-template-columns: 1fr;
+  }
+
+  .buttonsRandom{
+    margin-bottom: 5vh;
+  }
+
+  .buttonClickRanom,.buttonsRandomFilter{
+    width: 65vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .Filter{
+    font-size: 5vw;
+  }
+
+  .filterButtons{
+    margin-left: -10vw;
+  }
+
+  .recipeRandom{
+    margin-top: 5vh;
+  }
+  
+  .recipeTitle{
+    font-size: 5vw;
+  }
+
+  .recipeRandom{
+    border-left: none;
+  }
+
+  .recipeRandomInfo{
+    grid-template-columns: 1fr;
+  }
+
+  .recipeRandomInfoForm{
+    display: flex;
+    border-left: none;
+    border-top: 0.5px solid #b7b7b7ad;
+    font-size: 4vw;
+    padding: 0px;
+    justify-content: center;
+  }
+
+  .recipeIngredients{
+    width: 80%;
+  }
+
+  .footerInfo{
+    font-size: 3vw;
+    text-align: start;
+    margin-left: 0;
+    width: 90%;
+  }
+}
+
+@media (width: 375px) and (height: 667px){
+  .Logo{
+    width: 80%;
+    height: 80%;
+  }
+
+  .SobreGabrielDevLight{
+    margin-left: -20vw;
+  }
+
+  .body{
+    grid-template-columns: 1fr;
+  }
+
+  .buttonsRandom{
+    margin-bottom: 5vh;
+  }
+
+  .buttonClickRanom,.buttonsRandomFilter{
+    width: 65vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 15pt !important;
+  }
+  .Filter{
+    font-size: 5vw;
+  }
+
+  .filterButtons{
+    margin-left: -10vw;
+  }
+
+  .recipeRandom{
+    margin-top: 5vh;
+  }
+  
+  .recipeTitle{
+    font-size: 5vw;
+  }
+
+  .recipeRandom{
+    border-left: none;
+  }
+
+  .recipeRandomInfo{
+    grid-template-columns: 1fr;
+  }
+
+  .recipeRandomInfoForm{
+    display: flex;
+    border-left: none;
+    border-top: 0.5px solid #b7b7b7ad;
+    font-size: 4vw;
+    padding: 0px;
+    justify-content: center;
+  }
+
+  .recipeIngredients{
+    width: 80%;
+  }
+
+  .footerInfo{
+    font-size: 3vw;
+    text-align: start;
+    margin-left: 0;
+    width: 90%;
+  }
+}
+
+@media (width: 414px) and (height: 896px){
+  .Logo{
+    width: 80%;
+    height: 80%;
+  }
+
+  .SobreGabrielDevLight{
+    margin-left: -20vw;
+  }
+
+  .body{
+    grid-template-columns: 1fr;
+  }
+
+  .buttonsRandom{
+    margin-bottom: 5vh;
+  }
+
+  .buttonClickRanom,.buttonsRandomFilter{
+    width: 65vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 15pt !important;
+  }
+
+  .Filter{
+    height: 50px !important;
+    font-size: 5vw;
+    margin-top: 0vh !important;
+    font-size: 10pt !important;
+    text-align: center !important;
+    align-items: center !important;
+  }
+
+
+  .filterButtons{
+    margin-left: -10vw !important;
+    margin-top: -3vw !important;
+  }
+
+  .recipeRandom{
+    margin-top: 5vh;
+  }
+  
+  .recipeTitle{
+    font-size: 5vw;
+  }
+
+  .recipeRandom{
+    border-left: none;
+  }
+
+  .recipeRandomInfo{
+    grid-template-columns: 1fr;
+  }
+
+  .recipeRandomInfoForm{
+    display: flex;
+    border-left: none;
+    border-top: 0.5px solid #b7b7b7ad;
+    font-size: 4vw;
+    padding: 0px;
+    justify-content: center;
+  }
+
+  .recipeIngredients{
+    width: 80%;
+    font-size: 4vw !important;
+  }
+
+  .footerInfo{
+    font-size: 3vw !important;
+    text-align: start;
+    margin-left: 0;
+    width: 90%;
+  }
+}
+
+@media (width: 390px) and (height: 844px){
+  .Logo{
+    width: 80%;
+    height: 80%;
+  }
+
+  .SobreGabrielDevLight{
+    margin-left: -20vw;
+  }
+
+  .body{
+    grid-template-columns: 1fr;
+  }
+
+  .buttonsRandom{
+    margin-bottom: 5vh;
+  }
+
+  .buttonClickRanom,.buttonsRandomFilter{
+    width: 65vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 5vw !important;
+  }
+  .Filter{
+    font-size: 5vw !important;
+  }
+
+  .filterButtons{
+    margin-left: -10vw;
+  }
+
+  .recipeRandom{
+    margin-top: 5vh;
+  }
+  
+  .recipeTitle{
+    font-size: 5vw;
+  }
+
+  .recipeRandom{
+    border-left: none;
+  }
+
+  .recipeRandomInfo{
+    grid-template-columns: 1fr;
+  }
+
+  .recipeRandomInfoForm{
+    display: flex;
+    border-left: none;
+    border-top: 0.5px solid #b7b7b7ad;
+    font-size: 4vw;
+    padding: 0px;
+    justify-content: center;
+  }
+
+  .recipeIngredients{
+    width: 80%;
+    font-size: 4vw !important;
+  }
+
+  .footerInfo{
+    font-size: 3vw !important;
+    text-align: start;
+    margin-left: 0;
+    width: 90%;
+  }
+}
+
+@media (width: 393px) and (height: 851px){
+  .Logo{
+    width: 80%;
+    height: 80%;
+  }
+
+  .SobreGabrielDevLight{
+    margin-left: -20vw;
+  }
+
+  .body{
+    grid-template-columns: 1fr;
+  }
+
+  .buttonsRandom{
+    margin-bottom: 5vh;
+  }
+
+  .buttonClickRanom,.buttonsRandomFilter{
+    width: 65vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 5vw !important;
+  }
+  .Filter{
+    font-size: 5vw !important;
+  }
+
+  .filterButtons{
+    margin-left: -10vw;
+  }
+
+  .recipeRandom{
+    margin-top: 5vh;
+  }
+  
+  .recipeTitle{
+    font-size: 5vw;
+  }
+
+  .recipeRandom{
+    border-left: none;
+  }
+
+  .recipeRandomInfo{
+    grid-template-columns: 1fr;
+  }
+
+  .recipeRandomInfoForm{
+    display: flex;
+    border-left: none;
+    border-top: 0.5px solid #b7b7b7ad;
+    font-size: 4vw;
+    padding: 0px;
+    justify-content: center;
+  }
+
+  .recipeIngredients{
+    width: 80%;
+    font-size: 4vw !important;
+  }
+
+  .footerInfo{
+    font-size: 3vw !important;
+    text-align: start;
+    margin-left: 0;
+    width: 90%;
+  }
+}
+
+@media (width: 360px) and (height: 740px){
+  .Logo{
+    width: 80%;
+    height: 80%;
+  }
+
+  .SobreGabrielDevLight{
+    margin-left: -20vw;
+  }
+
+  .body{
+    grid-template-columns: 1fr;
+  }
+
+  .buttonsRandom{
+    margin-bottom: 5vh;
+  }
+
+  .buttonClickRanom,.buttonsRandomFilter{
+    width: 65vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 5vw !important;
+  }
+  .Filter{
+    font-size: 5vw !important;
+  }
+
+  .filterButtons{
+    margin-left: -10vw;
+  }
+
+  .recipeRandom{
+    margin-top: 5vh;
+  }
+  
+  .recipeTitle{
+    font-size: 5vw;
+  }
+
+  .recipeRandom{
+    border-left: none;
+  }
+
+  .recipeRandomInfo{
+    grid-template-columns: 1fr;
+  }
+
+  .recipeRandomInfoForm{
+    display: flex;
+    border-left: none;
+    border-top: 0.5px solid #b7b7b7ad;
+    font-size: 4vw;
+    padding: 0px;
+    justify-content: center;
+  }
+
+  .recipeIngredients{
+    width: 80%;
+    font-size: 4vw !important;
+  }
+
+  .footerInfo{
+    font-size: 3vw !important;
+    text-align: start;
+    margin-left: 0;
+    width: 90%;
+  }
+}
+
+@media (width: 412px) and (height: 915px){
+  .Logo{
+    width: 80%;
+    height: 80%;
+  }
+
+  .SobreGabrielDevLight{
+    margin-left: -20vw;
+  }
+
+  .body{
+    grid-template-columns: 1fr;
+  }
+
+  .buttonsRandom{
+    margin-bottom: 5vh;
+  }
+
+  .buttonClickRanom,.buttonsRandomFilter{
+    width: 65vw !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .Filter{
+    font-size: 5vw !important;
+  }
+
+  .filterButtons{
+    margin-left: -10vw;
+  }
+
+  .recipeRandom{
+    margin-top: 5vh;
+  }
+  
+  .recipeTitle{
+    font-size: 5vw;
+  }
+
+  .recipeRandom{
+    border-left: none;
+  }
+
+  .recipeRandomInfo{
+    grid-template-columns: 1fr;
+  }
+
+  .recipeRandomInfoForm{
+    display: flex;
+    border-left: none;
+    border-top: 0.5px solid #b7b7b7ad;
+    font-size: 4vw;
+    padding: 0px;
+    justify-content: center;
+  }
+
+  .recipeIngredients{
+    width: 80%;
+    font-size: 4vw !important;
+  }
+
+  .footerInfo{
+    font-size: 3vw !important;
+    text-align: start;
+    margin-left: 0;
+    width: 90%;
+  }
+}
+
+@media (width: 820px) and (height: 1180px){
+  .Logo{
+    width: 80%;
+    height: 80%;
+  }
+
+  .SobreGabrielDevLight{
+    margin-left: -20vw;
+  }
+
+  .body{
+    grid-template-columns: 1fr;
+  }
+
+  .buttonsRandom{
+    margin-bottom: 5vh;
+  }
+
+  .buttonClickRanom,.buttonsRandomFilter{
+    width: 65vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 4vw !important;
+  }
+
+  .buttonsRandomFilter{
+    width: 65vw;
+    display: flex;
+    align-items: center;
+  }
+
+  .buttonsRandomFilter{
+    height: 200px;
+  }
+
+  .Filter{
+    margin-top: 0 !important;
+    font-size: 3vw !important;
+  }
+
+  .filterButtons{
+    margin-top: 0.5vh!important;
+  }
+
+  .recipeRandom{
+    margin-top: 5vh;
+  }
+  
+  .recipeTitle{
+    font-size: 5vw;
+  }
+
+  .recipeRandom{
+    border-left: none;
+  }
+
+  .recipeRandomInfo{
+    grid-template-columns: 1fr;
+  }
+
+  .recipeRandomInfoForm{
+    display: flex;
+    border-left: none;
+    border-top: 0.5px solid #b7b7b7ad;
+    font-size: 4vw;
+    padding: 0px;
+    justify-content: center;
+  }
+
+  .recipeIngredients{
+    width: 80%;
+    font-size: 3vw !important;
+  }
+
+  .footerInfo{
+    font-size: 2.5vw !important;
+    text-align: start;
+    margin-left: 0;
+    width: 90%;
+  }
+}
+
+@media (width: 768px) and (height: 1024px){
+  .Logo{
+    width: 80%;
+    height: 80%;
+  }
+
+  .SobreGabrielDevLight{
+    margin-left: -20vw;
+  }
+
+  .body{
+    grid-template-columns: 1fr;
+  }
+
+  .buttonsRandom{
+    margin-bottom: 5vh;
+  }
+
+  .buttonClickRanom,.buttonsRandomFilter{
+    width: 65vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .buttonsRandomFilter{
+    width: 65vw;
+    display: flex;
+    align-items: center;
+  }
+
+  .buttonsRandomFilter{
+    height: 200px;
+  }
+
+  .Filter{
+    font-size: 3vw !important;
+  }
+
+  .filterButtons{
+    margin-top: 0vh !important;
+  }
+
+  .recipeRandom{
+    margin-top: 5vh;
+  }
+  
+  .recipeTitle{
+    font-size: 5vw;
+  }
+
+  .recipeRandom{
+    border-left: none;
+  }
+
+  .recipeRandomInfo{
+    grid-template-columns: 1fr;
+  }
+
+  .recipeRandomInfoForm{
+    display: flex;
+    border-left: none;
+    border-top: 0.5px solid #b7b7b7ad;
+    font-size: 4vw ;
+    padding: 0px;
+    justify-content: center;
+  }
+
+  .recipeIngredients{
+    width: 80%;
+    font-size: 3vw !important;
+  }
+
+  .footerInfo{
+    font-size: 2.5vw !important;
+    text-align: start;
+    margin-left: 0;
+    width: 90%;
+  }
+}
+
+@media (width: 912px) and (height: 1368px){
+  .Logo{
+    width: 80%;
+    height: 80%;
+  }
+
+  .SobreGabrielDevLight{
+    margin-left: -20vw;
+  }
+
+  .body{
+    grid-template-columns: 1fr;
+  }
+
+  .buttonsRandom{
+    margin-bottom: 5vh;
+  }
+
+  .buttonClickRanom,.buttonsRandomFilter{
+    width: 65vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 4vw !important;
+  }
+
+  .buttonsRandomFilter{
+    width: 65vw;
+    display: flex;
+    align-items: center;
+  }
+
+  .buttonsRandomFilter{
+    height: 200px;
+  }
+
+  .Filter{
+    margin-top: 1vw !important;
+    font-size: 3vw !important;
+  }
+
+  .filterButtons{
+    margin-top: 0.5vh !important;
+  }
+
+  .recipeRandom{
+    margin-top: 5vh;
+  }
+  
+  .recipeTitle{
+    font-size: 5vw;
+  }
+
+  .recipeRandom{
+    border-left: none;
+  }
+
+  .recipeRandomInfo{
+    grid-template-columns: 1fr;
+  }
+
+  .recipeRandomInfoForm{
+    display: flex;
+    border-left: none;
+    border-top: 0.5px solid #b7b7b7ad;
+    font-size: 4vw;
+    padding: 0px;
+    justify-content: center;
+  }
+
+  .recipeIngredients{
+    width: 80%;
+    font-size: 3vw !important;
+  }
+
+  .footerInfo{
+    font-size: 2.5vw !important;
+    text-align: start;
+    margin-left: 0;
+    width: 90%;
+  }
+}
+
+@media (width: 540px) and (height: 720px){
+  .Logo{
+    width: 80%;
+    height: 80%;
+  }
+
+  .SobreGabrielDevLight{
+    margin-left: -20vw;
+  }
+
+  .body{
+    grid-template-columns: 1fr;
+  }
+
+  .buttonsRandom{
+    margin-bottom: 5vh;
+  }
+
+  .buttonClickRanom,.buttonsRandomFilter{
+    width: 65vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 4vw !important;
+  }
+
+  .buttonsRandomFilter{
+    width: 65vw;
+    display: flex;
+    align-items: center;
+  }
+
+  .buttonsRandomFilter{
+    height: 200px;
+  }
+
+  .Filter{
+    margin-top: 0;
+    font-size: 3.5vw !important;
+  }
+
+  .filterButtons{
+    margin-top: 0vh!important;
+  }
+
+  .recipeRandom{
+    margin-top: 5vh;
+  }
+  
+  .recipeTitle{
+    font-size: 5vw;
+  }
+
+  .recipeRandom{
+    border-left: none;
+  }
+
+  .recipeRandomInfo{
+    grid-template-columns: 1fr;
+  }
+
+  .recipeRandomInfoForm{
+    display: flex;
+    border-left: none;
+    border-top: 0.5px solid #b7b7b7ad;
+    font-size: 4vw;
+    padding: 0px;
+    justify-content: center;
+  }
+
+  .recipeIngredients{
+    width: 80%;
+    font-size: 3vw !important;
+  }
+
+  .footerInfo{
+    font-size: 2.5vw !important;
+    text-align: start;
+    margin-left: 0;
+    width: 90%;
+  }
+}
+
+@media (width: 280px) and (height: 653px){
+  .Logo{
+    width: 80%;
+    height: 80%;
+  }
+
+  .SobreGabrielDevLight{
+    margin-left: -20vw;
+  }
+
+  .body{
+    grid-template-columns: 1fr;
+  }
+
+  .buttonsRandom{
+    margin-bottom: 5vh;
+  }
+
+  .buttonClickRanom,.buttonsRandomFilter{
+    width: 65vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .Filter{
+    font-size: 4vw !important;
+  }
+
+  .filterButtons{
+    margin-left: -10vw;
+  }
+
+  .recipeRandom{
+    margin-top: 5vh;
+  }
+  
+  .recipeTitle{
+    font-size: 5vw;
+  }
+
+  .recipeRandom{
+    border-left: none;
+  }
+
+  .recipeRandomInfo{
+    grid-template-columns: 1fr;
+  }
+
+  .recipeRandomInfoForm{
+    display: flex;
+    border-left: none;
+    border-top: 0.5px solid #b7b7b7ad;
+    font-size: 4vw;
+    padding: 0px;
+    justify-content: center;
+  }
+
+  .recipeIngredients{
+    width: 80%;
+  }
+
+  .footerInfo{
+    font-size: 3vw;
+    text-align: start;
+    margin-left: 0;
+    width: 90%;
+  }
+}
+
+@media (width: 412px) and (height: 914px){
+  .Logo{
+    width: 80%;
+    height: 80%;
+  }
+
+  .SobreGabrielDevLight{
+    margin-left: -20vw;
+  }
+
+  .body{
+    grid-template-columns: 1fr;
+  }
+
+  .buttonsRandom{
+    margin-bottom: 5vh;
+  }
+
+  .buttonClickRanom,.buttonsRandomFilter{
+    width: 65vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 5vw !important; 
+  }
+  .Filter{
+    font-size: 4vw !important;
+  }
+
+  .filterButtons{
+    margin-top: -0.5vw !important;
+  }
+
+  .recipeRandom{
+    margin-top: 5vh;
+  }
+  
+  .recipeTitle{
+    font-size: 5vw;
+  }
+
+  .recipeRandom{
+    border-left: none;
+  }
+
+  .recipeRandomInfo{
+    grid-template-columns: 1fr;
+  }
+
+  .recipeRandomInfoForm{
+    display: flex;
+    border-left: none;
+    border-top: 0.5px solid #b7b7b7ad;
+    font-size: 4vw;
+    padding: 0px;
+    justify-content: center;
+  }
+
+  .recipeIngredients{
+    width: 80%;
+    font-size: 3vw !important;
+  }
+
+  .footerInfo{
+    font-size: 2.5vw !important;
+    text-align: start;
+    margin-left: 0;
+    width: 90%;
+  }
+}
+
+@media (width: 1024px) and (height: 600px){
+
+  .buttonClickRanom{
+    font-size: 2vw
+  }
+
+  .Filter{
+    font-size: 2vw;
+    margin-left: 1vw;
+    margin-top: 3vh;
+  }
+
+  .filterButtons{
+    margin-left: -3vw;
+  }
+
+  .recipeRandomInfoForm{
+    font-size: 2vw;
+  }
+}
+
+@media (width: 1280px) and (height: 800px){
+
+  .buttonClickRanom{
+    font-size: 2vw
+  }
+
+  .Filter{
+    font-size: 1.5vw !important;
+    
+  }
+
+  .filterButtons{
+    margin-left: -3vw;
+  }
+
+  .recipeRandomInfoForm{
+    font-size: 2vw;
+  }
+}
+
+@media (width: 414px) and (height: 736px){
+  .Logo{
+    width: 80%;
+    height: 80%;
+  }
+
+  .SobreGabrielDevLight{
+    margin-left: -20vw;
+  }
+
+  .body{
+    grid-template-columns: 1fr;
+  }
+
+  .buttonsRandom{
+    margin-bottom: 5vh;
+  }
+
+  .buttonClickRanom,.buttonsRandomFilter{
+    width: 65vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 5vw !important;
+  }
+  .Filter{
+    font-size: 5vw !important;
+  }
+
+  .filterButtons{
+    margin-left: -10vw;
+  }
+
+  .recipeRandom{
+    margin-top: 5vh;
+  }
+  
+  .recipeTitle{
+    font-size: 5vw;
+  }
+
+  .recipeRandom{
+    border-left: none;
+  }
+
+  .recipeRandomInfo{
+    grid-template-columns: 1fr;
+  }
+
+  .recipeRandomInfoForm{
+    display: flex;
+    border-left: none;
+    border-top: 0.5px solid #b7b7b7ad;
+    font-size: 4vw;
+    padding: 0px;
+    justify-content: center;
+  }
+
+  .recipeIngredients{
+    width: 80%;
+    font-size: 3vw !important;
+  }
+
+  .footerInfo{
+    font-size: 2.5vw !important;
+    text-align: start;
+    margin-left: 0;
+    width: 90%;
+  }
+}
+
+@media (width: 375px) and (height: 812px){
+  .Logo{
+    width: 80%;
+    height: 80%;
+  }
+
+  .SobreGabrielDevLight{
+    margin-left: -20vw;
+  }
+
+  .body{
+    grid-template-columns: 1fr;
+  }
+
+  .buttonsRandom{
+    margin-bottom: 5vh;
+  }
+
+  .buttonClickRanom,.buttonsRandomFilter{
+    width: 65vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 5vw !important;
+  }
+  .Filter{
+    font-size: 5vw !important;
+  }
+
+  .filterButtons{
+    margin-left: -10vw !important;
+    margin-top: -0.5vh; 
+  }
+
+  .recipeRandom{
+    margin-top: 5vh;
+  }
+  
+  .recipeTitle{
+    font-size: 5vw;
+  }
+
+  .recipeRandom{
+    border-left: none;
+  }
+
+  .recipeRandomInfo{
+    grid-template-columns: 1fr;
+  }
+
+  .recipeRandomInfoForm{
+    display: flex;
+    border-left: none;
+    border-top: 0.5px solid #b7b7b7ad;
+    font-size: 4vw;
+    padding: 0px;
+    justify-content: center;
+  }
+
+  .recipeIngredients{
+    width: 80%;
+    font-size: 3vw  !important;
+  }
+
+  .footerInfo{
+    font-size: 2.5vw  !important;
+    text-align: start;
+    margin-left: 0;
+    width: 90%;
+  }
+}
+
+@media (width: 412px) and (height: 892px){
+  .Logo{
+    width: 80%;
+    height: 80%;
+  }
+
+  .SobreGabrielDevLight{
+    margin-left: -20vw;
+  }
+
+  .body{
+    grid-template-columns: 1fr;
+  }
+
+  .buttonsRandom{
+    margin-bottom: 5vh;
+  }
+
+  .buttonClickRanom,.buttonsRandomFilter{
+    width: 65vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-size: 5vw !important;
+  }
+  .Filter{
+    font-size: 5vw !important;
+  }
+
+  .filterButtons{
+    margin-left: -10vw;
+    margin-top: -0.5vw !important;
+  }
+
+  .recipeRandom{
+    margin-top: 5vh;
+  }
+  
+  .recipeTitle{
+    font-size: 5vw;
+  }
+
+  .recipeRandom{
+    border-left: none;
+  }
+
+  .recipeRandomInfo{
+    grid-template-columns: 1fr;
+  }
+
+  .recipeRandomInfoForm{
+    display: flex;
+    border-left: none;
+    border-top: 0.5px solid #b7b7b7ad;
+    font-size: 4vw;
+    padding: 0px;
+    justify-content: center;
+  }
+
+  .recipeIngredients{
+    width: 80%;
+    font-size: 4vw !important;
+  }
+
+  .footerInfo{
+    font-size: 2.5vw !important;
+    text-align: start;
+    margin-left: 0;
+    width: 90%;
+  }
+}
+
+@media (width: 320px) and (height: 819px){
+  .Logo{
+    width: 80%;
+    height: 80%;
+  }
+
+  .SobreGabrielDevLight{
+    margin-left: -20vw;
+  }
+
+  .body{
+    grid-template-columns: 1fr;
+  }
+
+  .buttonsRandom{
+    margin-bottom: 5vh;
+  }
+
+  .buttonClickRanom,.buttonsRandomFilter{
+    width: 65vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+
+  .Filter{
+    font-size: 5vw;
+    height: 40px;
+  }
+
+  .filterButtons{
+    margin-left: -10vw;
+    margin-top: 0vw;
+  }
+
+  .recipeRandom{
+    margin-top: 5vh;
+  }
+  
+  .recipeTitle{
+    font-size: 5vw;
+  }
+
+  .recipeRandom{
+    border-left: none;
+  }
+
+  .recipeRandomInfo{
+    grid-template-columns: 1fr;
+  }
+
+  .recipeRandomInfoForm{
+    display: flex;
+    border-left: none;
+    border-top: 0.5px solid #b7b7b7ad;
+    font-size: 4vw;
+    padding: 0px;
+    justify-content: center;
+  }
+
+  .recipeIngredients{
+    width: 80%;
+  }
+
+  .footerInfo{
+    font-size: 3vw;
+    text-align: start;
+    margin-left: 0;
+    width: 90%;
+  }
+}
+
+@media (width: 375px) and (height: 819px){
+  .Logo{
+    width: 80%;
+    height: 80%;
+  }
+
+  .SobreGabrielDevLight{
+    margin-left: -20vw;
+  }
+
+  .body{
+    grid-template-columns: 1fr;
+  }
+
+  .buttonsRandom{
+    margin-bottom: 5vh;
+  }
+
+  .buttonClickRanom,.buttonsRandomFilter{
+    width: 65vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+
+  .Filter{
+    font-size: 5vw;
+    height: 40px;
+  }
+
+  .filterButtons{
+    margin-left: -10vw;
+    margin-top: 0vw;
+  }
+
+  .recipeRandom{
+    margin-top: 5vh;
+  }
+  
+  .recipeTitle{
+    font-size: 5vw;
+  }
+
+  .recipeRandom{
+    border-left: none;
+  }
+
+  .recipeRandomInfo{
+    grid-template-columns: 1fr;
+  }
+
+  .recipeRandomInfoForm{
+    display: flex;
+    border-left: none;
+    border-top: 0.5px solid #b7b7b7ad;
+    font-size: 4vw;
+    padding: 0px;
+    justify-content: center;
+  }
+
+  .recipeIngredients{
+    width: 80%;
+  }
+
+  .footerInfo{
+    font-size: 3vw;
+    text-align: start;
+    margin-left: 0;
+    width: 90%;
+  }
+}
+
+@media (width: 425px) {
+  .Logo{
+    width: 80%;
+    height: 80%;
+  }
+
+  .SobreGabrielDevLight{
+    margin-left: -20vw;
+  }
+
+  .body{
+    grid-template-columns: 1fr;
+  }
+
+  .buttonsRandom{
+    margin-bottom: 5vh;
+  }
+
+  .buttonClickRanom,.buttonsRandomFilter{
+    width: 65vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+
+  .Filter{
+    font-size: 5vw;
+    height: 40px;
+  }
+
+  .filterButtons{
+    margin-left: -10vw;
+    margin-top: 0vw;
+  }
+
+  .recipeRandom{
+    margin-top: 5vh;
+  }
+  
+  .recipeTitle{
+    font-size: 5vw;
+  }
+
+  .recipeRandom{
+    border-left: none;
+  }
+
+  .recipeRandomInfo{
+    grid-template-columns: 1fr;
+  }
+
+  .recipeRandomInfoForm{
+    display: flex;
+    border-left: none;
+    border-top: 0.5px solid #b7b7b7ad;
+    font-size: 4vw;
+    padding: 0px;
+    justify-content: center;
+  }
+
+  .recipeIngredients{
+    width: 80%;
+  }
+
+  .footerInfo{
+    font-size: 3vw;
+    text-align: start;
+    margin-left: 0;
+    width: 90%;
+  }
+}
+
+@media (width: 768px) {
+  .Logo{
+    width: 80%;
+    height: 80%;
+  }
+
+  .SobreGabrielDevLight{
+    margin-left: -20vw;
+  }
+
+  .body{
+    grid-template-columns: 1fr;
+  }
+
+  .buttonsRandom{
+    margin-bottom: 5vh;
+  }
+
+  .buttonClickRanom,.buttonsRandomFilter{
+    width: 65vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .buttonsRandomFilter{
+    width: 65vw;
+    display: flex;
+    align-items: center;
+  }
+
+  .buttonsRandomFilter{
+    height: 200px;
+  }
+
+  .Filter{
+    margin-top: 0;
+    font-size: 5vw;
+  }
+
+  .filterButtons{
+    margin-top: 1.5vh;
+  }
+
+  .recipeRandom{
+    margin-top: 5vh;
+  }
+  
+  .recipeTitle{
+    font-size: 5vw;
+  }
+
+  .recipeRandom{
+    border-left: none;
+  }
+
+  .recipeRandomInfo{
+    grid-template-columns: 1fr;
+  }
+
+  .recipeRandomInfoForm{
+    display: flex;
+    border-left: none;
+    border-top: 0.5px solid #b7b7b7ad;
+    font-size: 4vw;
+    padding: 0px;
+    justify-content: center;
+  }
+
+  .recipeIngredients{
+    width: 80%;
+    font-size: 2.5vw;
+  }
+
+  .footerInfo{
+    font-size: 3vw;
+    text-align: start;
+    margin-left: 0;
+    width: 90%;
+  }
+}
+
+@media (width: 1024px) {
+
+  .buttonClickRanom{
+    font-size: 2vw
+  }
+
+  .Filter{
+    font-size: 2vw;
+    margin-left: 1vw;
+    margin-top: 3vh;
+  }
+
+  .filterButtons{
+    margin-left: -3vw;
+  }
+
+  .recipeRandomInfoForm{
+    font-size: 2vw;
+  }
+}
+
+@media (width: 1440px) {
+
+  .buttonClickRanom{
+    font-size: 2vw
+  }
+
+  .Filter{
+    font-size: 2vw;
+    margin-left: 1vw;
+    margin-top: 3vh;
+  }
+
+  .filterButtons{
+    margin-left: -3vw;
+  }
+
+  .recipeRandomInfoForm{
+    font-size: 2vw;
+  }
+}
+
+@media (max-width: 1540px) {
+
+  .buttonClickRanom{
+    font-size: 2vw
+  }
+
+  .Filter{
+    font-size: 2vw;
+    margin-left: 1vw;
+    margin-top: 3vh;
+  }
+
+  .filterButtons{
+    margin-left: -3vw;
+  }
+
+  .recipeRandomInfoForm{
+    font-size: 2vw;
+  }
+}
+
+@media (max-width: 1000px) {
+
+  .Logo{
+    width: 80%;
+    height: 80%;
+  }
+
+  .SobreGabrielDevLight{
+    margin-left: -20vw;
+  }
+
+  .body{
+    grid-template-columns: 1fr;
+  }
+
+  .buttonsRandom{
+    margin-bottom: 5vh;
+  }
+
+  .buttonClickRanom,.buttonsRandomFilter{
+    width: 65vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .Filter{
+    font-size: 2.5vw;
+    height: 40px;
+  }
+
+  .filterButtons{
+    margin-left: -10vw;
+  }
+
+  .recipeRandom{
+    margin-top: 5vh;
+  }
+  
+  .recipeTitle{
+    font-size: 5vw;
+  }
+
+  .recipeRandom{
+    border-left: none;
+  }
+
+  .recipeRandomInfo{
+    grid-template-columns: 1fr;
+  }
+
+  .recipeRandomInfoForm{
+    display: flex;
+    border-left: none;
+    border-top: 0.5px solid #b7b7b7ad;
+    font-size: 4vw;
+    padding: 0px;
+    justify-content: center;
+  }
+
+  .recipeIngredients{
+    width: 80%;
+    font-size: 2vw;
+  }
+
+  .footerInfo{
+    font-size: 1.5vw;
+    text-align: start;
+    margin-left: 0;
+    width: 90%;
+  }
 }

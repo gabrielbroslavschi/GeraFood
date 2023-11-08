@@ -8,7 +8,6 @@ function App() {
 
   const [vegan, setVegan] = useState(false);
   const [vegetarian, setVegetarian] = useState(false);
-  const [gluten, setGluten] = useState(false);
 
   const [receitasArray, setReceitasArray] = useState([]);
   const [image, setImage] = useState(
@@ -86,26 +85,51 @@ function App() {
     setVegetarian(event.target.checked);
   };
 
-  const handleSwitchChangeGluten = (event) => {
-    setGluten(event.target.checked);
-  };
+  function setSets(obj) {
+    setReceitasArray(obj);
+    setImage(obj.imagem);
+    setNameRecive(obj.nome);
+    setIngredients(obj.ingredientes);
+    setPreparation(obj.Preparo);
+  }
+
+  function filterValidator(obj) {
+    if (vegan && vegetarian && (obj.vegano || obj.vegetariano)) {
+      return obj;
+    } else if (vegetarian && obj.vegetariano) {
+      return obj;
+    } else if (vegan && obj.vegano) {
+      return obj;
+    } else {
+      return 0;
+    }
+  }
 
   function objetoAleatorio(array) {
-    if (array.imagem === image) {
+    const indiceAleatorio = Math.floor(Math.random() * array.length);
+    let validator;
+    console.log(array[indiceAleatorio]);
+
+    if (array[indiceAleatorio].nome === nameRecive) {
       objetoAleatorio(receitas.data);
     } else {
-      const indiceAleatorio = Math.floor(Math.random() * array.length);
-      return array[indiceAleatorio];
+      if (vegan || vegetarian) {
+        console.log("entrei no vega/vegetariuan");
+        validator = filterValidator(array[indiceAleatorio]);
+        console.log("settei o validador =>", validator);
+      }
+
+      if (validator !== 0) {
+        setSets(array[indiceAleatorio]);
+      } else {
+        console.log("entrei aqui entrei");
+        objetoAleatorio(receitas.data);
+      }
     }
   }
 
   const generateRecipe = () => {
-    let reciveRandom = objetoAleatorio(receitas.data);
-    setReceitasArray(reciveRandom);
-    setImage(reciveRandom.imagem);
-    setNameRecive(reciveRandom.nome);
-    setIngredients(reciveRandom.ingredientes);
-    setPreparation(reciveRandom.Preparo);
+    objetoAleatorio(receitas.data);
   };
 
   return (
@@ -161,13 +185,6 @@ function App() {
                 : buttonsRandomFilterLighModeOff
             }
           >
-            <div
-              className="titleFilter"
-              style={isChecked === true ? lighModeCorlorOn : lighModeCorlorOff}
-            >
-              Filtros
-            </div>
-
             <div className="Filter">
               <div>Vegetariano</div>
               <div>
@@ -205,25 +222,6 @@ function App() {
                 ></input>
               </div>
             </div>
-
-            <div className="Filter">
-              <div>Sem Glúten</div>
-              <div>
-                <input
-                  className="filterButtons"
-                  type="checkbox"
-                  name="switch"
-                  id="switch"
-                  style={
-                    gluten === true && isChecked === false
-                      ? colorButtonFilterLightModeOff
-                      : {}
-                  }
-                  checked={gluten}
-                  onChange={handleSwitchChangeGluten}
-                ></input>
-              </div>
-            </div>
           </div>
         </div>
         <div className="recipeRandom">
@@ -249,25 +247,25 @@ function App() {
                 Ingredientes
               </div>
               <div className="recipeIngredients">
-              {ingredients !== "" ? (
-                <ul>
-                  {ingredients.map((ingrediente, index) => (
-                    <li key={index}>{ingrediente}</li>
-                  ))}
-                </ul>
-              ) : null}
+                {ingredients !== "" ? (
+                  <ul>
+                    {ingredients.map((ingrediente, index) => (
+                      <li key={index}>{ingrediente}</li>
+                    ))}
+                  </ul>
+                ) : null}
               </div>
             </div>
 
             <div className="recipeRandomInfoForm">
-            <div className="recipeIngredients">
-              {ingredients !== "" ? (
-                <ul>
-                  {ingredients.map((ingrediente, index) => (
-                    <li key={index}>{ingrediente}</li>
-                  ))}
-                </ul>
-              ) : null}
+              <div className="recipeIngredients">
+                {preparation !== "" ? (
+                  <ul>
+                    {preparation.map((ingrediente, index) => (
+                      <li key={index}>{ingrediente}</li>
+                    ))}
+                  </ul>
+                ) : null}
               </div>
             </div>
           </div>
@@ -280,7 +278,15 @@ function App() {
             ? backgroundColorLighModeOn
             : backgroundColorLighModeOff
         }
-      ></div>
+      >
+        <div className="footerInfo">
+          <ul>
+            <li>Telefone/WhatsApp: (11) 95302-5797</li>
+            <li>E-mail: gabrielbroslavschidacosta@gmail.com</li>
+            <li>Site Matriz: gabrielbroslavschideveloper.netlify.app</li>
+          </ul>
+        </div>
+      </div>
     </div>
   );
 }
