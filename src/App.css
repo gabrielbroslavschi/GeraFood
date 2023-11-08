@@ -171,6 +171,11 @@
   text-align: center;
 }
 
+.buttonClickRanom:hover{
+  transform: scale(0.98);
+  transition: 0.3s;
+}
+
 .buttonsRandomFilter{
   width: 20vw;
   height: 135px;
@@ -291,6 +296,11 @@
     margin-bottom: 5vh;
   }
 
+  .buttonClickRanom:hover{
+  transform: scale(0.98);
+  transition: 0.3s;
+}
+
   .buttonClickRanom,.buttonsRandomFilter{
     width: 65vw;
     display: flex;
@@ -359,6 +369,11 @@
   .buttonsRandom{
     margin-bottom: 5vh;
   }
+
+  .buttonClickRanom:hover{
+  transform: scale(0.98);
+  transition: 0.3s;
+}
 
   .buttonClickRanom,.buttonsRandomFilter{
     width: 65vw;
@@ -429,6 +444,11 @@
     margin-bottom: 5vh;
   }
 
+  .buttonClickRanom:hover{
+  transform: scale(0.98);
+  transition: 0.3s;
+}
+
   .buttonClickRanom,.buttonsRandomFilter{
     width: 65vw;
     display: flex;
@@ -498,6 +518,11 @@
   .buttonsRandom{
     margin-bottom: 5vh;
   }
+
+  .buttonClickRanom:hover{
+  transform: scale(0.98);
+  transition: 0.3s;
+}
 
   .buttonClickRanom,.buttonsRandomFilter{
     width: 65vw;
@@ -578,6 +603,11 @@
     margin-bottom: 5vh;
   }
 
+  .buttonClickRanom:hover{
+  transform: scale(0.98);
+  transition: 0.3s;
+}
+
   .buttonClickRanom,.buttonsRandomFilter{
     width: 65vw;
     display: flex;
@@ -648,6 +678,11 @@
   .buttonsRandom{
     margin-bottom: 5vh;
   }
+
+  .buttonClickRanom:hover{
+  transform: scale(0.98);
+  transition: 0.3s;
+}
 
   .buttonClickRanom,.buttonsRandomFilter{
     width: 65vw;
@@ -720,6 +755,11 @@
     margin-bottom: 5vh;
   }
 
+  .buttonClickRanom:hover{
+  transform: scale(0.98);
+  transition: 0.3s;
+}
+
   .buttonClickRanom,.buttonsRandomFilter{
     width: 65vw;
     display: flex;
@@ -791,6 +831,11 @@
     margin-bottom: 5vh;
   }
 
+  .buttonClickRanom:hover{
+  transform: scale(0.98);
+  transition: 0.3s;
+}
+
   .buttonClickRanom,.buttonsRandomFilter{
     width: 65vw !important;
     display: flex;
@@ -860,6 +905,11 @@
   .buttonsRandom{
     margin-bottom: 5vh;
   }
+
+  .buttonClickRanom:hover{
+  transform: scale(0.98);
+  transition: 0.3s;
+}
 
   .buttonClickRanom,.buttonsRandomFilter{
     width: 65vw;
@@ -944,6 +994,11 @@
     margin-bottom: 5vh;
   }
 
+  .buttonClickRanom:hover{
+  transform: scale(0.98);
+  transition: 0.3s;
+}
+
   .buttonClickRanom,.buttonsRandomFilter{
     width: 65vw;
     display: flex;
@@ -1024,6 +1079,11 @@
   .buttonsRandom{
     margin-bottom: 5vh;
   }
+
+  .buttonClickRanom:hover{
+  transform: scale(0.98);
+  transition: 0.3s;
+}
 
   .buttonClickRanom,.buttonsRandomFilter{
     width: 65vw;
@@ -1108,6 +1168,11 @@
     margin-bottom: 5vh;
   }
 
+  .buttonClickRanom:hover{
+  transform: scale(0.98);
+  transition: 0.3s;
+}
+
   .buttonClickRanom,.buttonsRandomFilter{
     width: 65vw;
     display: flex;
@@ -1191,6 +1256,11 @@
     margin-bottom: 5vh;
   }
 
+  .buttonClickRanom:hover{
+  transform: scale(0.98);
+  transition: 0.3s;
+}
+
   .buttonClickRanom,.buttonsRandomFilter{
     width: 65vw;
     display: flex;
@@ -1260,6 +1330,11 @@
     margin-bottom: 5vh;
   }
 
+  .buttonClickRanom:hover{
+  transform: scale(0.98);
+  transition: 0.3s;
+}
+
   .buttonClickRanom,.buttonsRandomFilter{
     width: 65vw;
     display: flex;
@@ -1315,6 +1390,11 @@
 
 @media (width: 1024px) and (height: 600px){
 
+  .buttonClickRanom:hover{
+  transform: scale(0.98);
+  transition: 0.3s;
+}
+
   .buttonClickRanom{
     font-size: 2vw
   }
@@ -1335,6 +1415,11 @@
 }
 
 @media (width: 1280px) and (height: 800px){
+
+  .buttonClickRanom:hover{
+  transform: scale(0.98);
+  transition: 0.3s;
+}
 
   .buttonClickRanom{
     font-size: 2vw
@@ -1371,6 +1456,11 @@
   .buttonsRandom{
     margin-bottom: 5vh;
   }
+
+  .buttonClickRanom:hover{
+  transform: scale(0.98);
+  transition: 0.3s;
+}
 
   .buttonClickRanom,.buttonsRandomFilter{
     width: 65vw;
@@ -1443,6 +1533,11 @@
     margin-bottom: 5vh;
   }
 
+  .buttonClickRanom:hover{
+  transform: scale(0.98);
+  transition: 0.3s;
+}
+
   .buttonClickRanom,.buttonsRandomFilter{
     width: 65vw;
     display: flex;
@@ -1514,6 +1609,11 @@
   .buttonsRandom{
     margin-bottom: 5vh;
   }
+
+  .buttonClickRanom:hover{
+  transform: scale(0.98);
+  transition: 0.3s;
+}
 
   .buttonClickRanom,.buttonsRandomFilter{
     width: 65vw;
@@ -1588,6 +1688,11 @@
     margin-bottom: 5vh;
   }
 
+  .buttonClickRanom:hover{
+  transform: scale(0.98);
+  transition: 0.3s;
+}
+
   .buttonClickRanom,.buttonsRandomFilter{
     width: 65vw;
     display: flex;
@@ -1660,6 +1765,11 @@
   .buttonsRandom{
     margin-bottom: 5vh;
   }
+
+  .buttonClickRanom:hover{
+  transform: scale(0.98);
+  transition: 0.3s;
+}
 
   .buttonClickRanom,.buttonsRandomFilter{
     width: 65vw;
@@ -1734,6 +1844,11 @@
     margin-bottom: 5vh;
   }
 
+  .buttonClickRanom:hover{
+  transform: scale(0.98);
+  transition: 0.3s;
+}
+
   .buttonClickRanom,.buttonsRandomFilter{
     width: 65vw;
     display: flex;
@@ -1807,6 +1922,11 @@
     margin-bottom: 5vh;
   }
 
+  .buttonClickRanom:hover{
+  transform: scale(0.98);
+  transition: 0.3s;
+}
+
   .buttonClickRanom,.buttonsRandomFilter{
     width: 65vw;
     display: flex;
@@ -1873,6 +1993,11 @@
 
 @media (width: 1024px) {
 
+  .buttonClickRanom:hover{
+  transform: scale(0.98);
+  transition: 0.3s;
+}
+
   .buttonClickRanom{
     font-size: 2vw
   }
@@ -1894,6 +2019,11 @@
 
 @media (width: 1440px) {
 
+  .buttonClickRanom:hover{
+  transform: scale(0.98);
+  transition: 0.3s;
+}
+
   .buttonClickRanom{
     font-size: 2vw
   }
@@ -1914,6 +2044,11 @@
 }
 
 @media (max-width: 1540px) {
+
+  .buttonClickRanom:hover{
+  transform: scale(0.98);
+  transition: 0.3s;
+}
 
   .buttonClickRanom{
     font-size: 2vw
@@ -1953,12 +2088,19 @@
     margin-bottom: 5vh;
   }
 
+  .buttonClickRanom:hover{
+  transform: scale(0.98);
+  transition: 0.3s;
+}
+
   .buttonClickRanom,.buttonsRandomFilter{
     width: 65vw;
     display: flex;
     justify-content: center;
     align-items: center;
   }
+
+
   .Filter{
     font-size: 2.5vw;
     height: 40px;

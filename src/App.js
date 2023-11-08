@@ -9,7 +9,6 @@ function App() {
   const [vegan, setVegan] = useState(false);
   const [vegetarian, setVegetarian] = useState(false);
 
-  const [receitasArray, setReceitasArray] = useState([]);
   const [image, setImage] = useState(
     "https://cdn.vectorstock.com/i/preview-1x/65/30/default-image-icon-missing-picture-page-vector-40546530.jpg"
   );
@@ -86,7 +85,6 @@ function App() {
   };
 
   function setSets(obj) {
-    setReceitasArray(obj);
     setImage(obj.imagem);
     setNameRecive(obj.nome);
     setIngredients(obj.ingredientes);
